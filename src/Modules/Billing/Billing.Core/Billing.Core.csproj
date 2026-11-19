@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <NoWarn>$(NoWarn);CA1515;CA2007</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../Billing.Contracts/Billing.Contracts.csproj" />
+    <ProjectReference Include="../../Orders/Orders.Contracts/Orders.Contracts.csproj" />
+  </ItemGroup>
+</Project>
