@@ -2,12 +2,12 @@
 
 **Six developers. Twelve microservices. One shared database. Would you approve this architecture?**
 
-This is a .NET 8 reference for the alternative: a **modular monolith**. It ships as one deployable,
+This is a .NET 10 reference for the alternative: a **modular monolith**. It ships as one deployable,
 with hard module boundaries that **CI enforces**, so you can extract a service later when a measured
 reason appears.
 
 [![ci](../../actions/workflows/ci.yml/badge.svg)](../../actions/workflows/ci.yml)
-![.NET 8](https://img.shields.io/badge/.NET-8.0-512BD4)
+![.NET 10](https://img.shields.io/badge/.NET-10.0-512BD4)
 ![License: MIT](https://img.shields.io/badge/license-MIT-green)
 
 ## Architecture
